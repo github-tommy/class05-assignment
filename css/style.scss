@@ -162,3 +162,23 @@ header img {
         transform: rotate(360deg);
       }
       
+.expand:hover{
+    background-color:#fff;
+    cursor: pointer;
+    color:black;
+    line-height: 2em;
+}
+
+h4{
+    color: #092f57;
+}
+
+#gallery img{
+    width: 50%;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+}
+
