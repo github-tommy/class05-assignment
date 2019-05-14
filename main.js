@@ -1,4 +1,4 @@
-alert('Welcome to Tommybook! ');
+// alert('Welcome to Tommybook! ');
 // alert('Please remember to provide your email address for news and update.');
 
 let home;
