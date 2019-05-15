@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>tommybook</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <div class="header">
-        <div class="header-left-one">
-            <h1>Tommy Surjadi</h1>
-        </div>
-        <!-- <div class="header-left-two">
-            <h1>@425-391-5600 |</h1>
-        </div> -->
-        <div class="header-left-three">
-            <h1> 206-765-7866</h1>
-        </div>
-        <div class="header-right">
-            <img src="images/logo.png" alt="cb-logo">
-        </div>
-    </div>
-    <nav class="nav-bar">
-        <a href="index.html">Home</a>
-        <a href="https://www.coldwellbankerbain.com/tommysurjadi">About Me</a>
-        <a href="gallery.html">Search</a>
-        <a href="blog.html">Blog</a>
-    </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <title>Tommybook - live and retire in washington</title>
+    </head>
+    <body>
+        <div id="content">
+            <header class="header">
+                <div class="nested">
+                <div><h1>Week06: Bootstrap - Tommy@ xxx>>></h1></div>
+                <!-- <div>tommy @contact#</div> -->
+                <div>
+                <img class="header-logo" src="img/logo.png" alt="cb-logo">
+                </div>
+                </div>
+            </header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery.html">Search</a></li>
+                    <li><a href="www.tommysurjadi.com">Blog</a></li>
+                </ul>
+            </nav>
     <main>
-    <div class="search">
-    <h2>! Under Construction-Thanks for Your Patience.!</h2>
-    </div>
+        <!-- ACCORDIAN -->
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Seattle</a>
+                </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body"><p>With an estimated 730,000 residents as of 2018, Seattle is the largest city in both the state of Washington and the Pacific Northwest region of North America. According to U.S. Census data released in 2018, the Seattle metropolitan area’s population stands at 3.87 million, and ranks as the 15th largest in the United States.</p>
+                </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Bellevue</a>
+                </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">The name "Bellevue" is derived from the French words for "beautiful view". Bellevue is a city in the Eastside region of King County, Washington, United States, across Lake Washington from Seattle. Prior to 2008, downtown Bellevue underwent rapid change, with many high rise projects under construction, and was relatively unaffected by the economic downturn. The downtown area is currently the second largest city center in Washington state with 1,300 businesses, 45,000 employees and 10,200 residents. Based on per capita income, Bellevue is the 6th wealthiest of 522 communities in the state of Washington.</div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Bellingham</a>
+                </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">Bellingham, WA, a vibrant city with a population of 82,654 and 30% over 50; is voted as the 5th best place to retire in the US by CNN Money.</div>
+                </div>
+            </div>
+            </div> 
+        </div>
     </main>
     <div class="footer">
             <nav class="nav-bottom">
